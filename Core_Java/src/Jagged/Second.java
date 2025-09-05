@@ -3,7 +3,7 @@ package Jagged;
 public class Second {
 
 	public static void main(String[] args) {
-		int [][] jagged = new int [6][];
+		int [][] jagged = new int [10][];
 		
 		jagged[0] = new int[1];
 		jagged[1] = new int[2];
@@ -11,10 +11,14 @@ public class Second {
 		jagged[3] = new int[4];
 		jagged[4] = new int[5];
 		jagged[5] = new int[6];
+		jagged[6] = new int[7];
+		jagged[7] = new int[8];
+		jagged[8] = new int[9];
+		jagged[9] = new int[10];
 		
 		
 		int count=1;
-		for(int i=0; i<6; i++)
+		for(int i=0; i<10; i++)
 		{
 			for(int j=0; j<jagged[i].length; j++)
 			{
@@ -24,7 +28,7 @@ public class Second {
 		}
 		
 		
-		for(int i=0; i<6; i++)
+		for(int i=0; i<10; i++)
 		{
 			for(int j=0; j<jagged[i].length; j++)
 			{
@@ -35,7 +39,7 @@ public class Second {
 		
 		System.out.println("*****************");
 		
-		for(int i=5; i>=0; i--)
+		for(int i=9; i>=0; i--)
 		{
 			 for(int j=jagged[i].length-1; j>=0; j--)
 			 {
